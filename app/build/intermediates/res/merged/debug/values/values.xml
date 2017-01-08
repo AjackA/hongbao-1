@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="accessibility_description">启动QQ抢红包服务（即使用QQ）</string>
+    <string name="app_name">QQ抢红包</string>
+</resources>

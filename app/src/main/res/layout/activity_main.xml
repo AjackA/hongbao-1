@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9938f31b"
+        android:padding="10dp"
+        android:text="打开辅助服务"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="说明：外挂开启后，建议手机回到桌面。如果没有设置屏幕锁定方式，支持待机自动抢红包，如果设置了锁定方式，请保存屏幕常亮"
+        android:textColor="#ee7925"
+        android:textSize="16sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="开启外挂后，请确保QQ聊天的群组设置里，消息免打扰功能处于关闭状态；并且QQ设置里的新消息提醒，都处于开启状态！"
+        android:textColor="#ee7925"
+        android:textSize="16sp"
+        android:id="@+id/textView" />
+
+</RelativeLayout>
